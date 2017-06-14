@@ -62,6 +62,8 @@
         maxElementsOnDisk="10000000"
         diskPersistent="false"
         diskExpiryThreadIntervalSeconds="120"
-        memoryStoreEvictionPolicy="LRU" />        
+        memoryStoreEvictionPolicy="LRU" />  
+        
+<!--Add new configuration here-->              
              
 </ehcache> 
