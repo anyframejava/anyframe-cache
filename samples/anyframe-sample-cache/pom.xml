@@ -11,7 +11,7 @@
     <groupId>org.anyframe</groupId>
     <artifactId>anyframe-sample-cache</artifactId>
     <packaging>war</packaging>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <name>anyframe-sample-cache</name>
     <dependencies>
 
@@ -23,7 +23,7 @@
         <dependency>
             <groupId>org.anyframe</groupId>
             <artifactId>anyframe-core</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>hsqldb</groupId>
@@ -115,7 +115,7 @@
         <dependency>
             <groupId>org.anyframe</groupId>
             <artifactId>anyframe-cache</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>opensymphony</groupId>
@@ -130,7 +130,7 @@
         <dependency>
             <groupId>org.anyframe</groupId>
             <artifactId>anyframe-query</artifactId>
-            <version>1.1.1</version>
+            <version>1.1.2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>javax.transaction</groupId>

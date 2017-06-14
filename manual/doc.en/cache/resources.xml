@@ -42,11 +42,11 @@
 							<tbody>
 								<row>
 									<entry align="center">hsqldb.zip</entry>
-									<entry align="center"><ulink url="http://dev.anyframejava.org/docs/anyframe/plugin/core/1.0.1/reference/sample/hsqldb.zip">Download</ulink></entry>
+									<entry align="center"><ulink url="http://dev.anyframejava.org/docs.en/anyframe/plugin/essential/core/1.0.1/reference/sample/hsqldb.zip">Download</ulink></entry>
 								</row>										
 								<row>
 									<entry align="center">anyframe-sample-cache.zip</entry>
-									<entry align="center"><ulink url="http://dev.anyframejava.org/docs/anyframe/plugin/core/1.0.1/reference/sample/anyframe.sample.cache.zip">Download</ulink></entry>
+									<entry align="center"><ulink url="http://dev.anyframejava.org/docs.en/anyframe/plugin/optional/cache/1.0.1/reference/sample/anyframe-sample-cache.zip">Download</ulink></entry>
 								</row>
 							</tbody>
 						</tgroup>

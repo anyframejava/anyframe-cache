@@ -22,7 +22,7 @@ import org.anyframe.sample.domain.Genre;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * DefaultCacheService를 이용하여 구현된 GenreService의 기능을 테스트하기 위한 샘플 코드
+ * Sample code to test GenreService implemented by using DefaultCacheService. 
  * 
  * [how to execute this class in maven] mvn exec:java
  * -Dexec.mainClass=org.anyframe.sample.cache.Main
@@ -47,7 +47,7 @@ public class Main {
 	}
 
 	/**
-	 * 테스트 수행을 위한 main
+	 * Main method to test
 	 */
 	public static void main(String[] args) throws Exception {
 		Main main = new Main();

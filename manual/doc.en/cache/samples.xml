@@ -1,15 +1,16 @@
 	<chapter id="cache_samples">
 		<title>Samples</title>
-			<para>다음은 CacheServiceImpl의 속성 설정 및 테스트 코드에 대한 예제이다.</para>
+			<para>The following is an example of configuration and test code of CacheServiceImpl.</para>
 			<itemizedlist>
 				<listitem>
 					<para>
 						<emphasis role="bold">Configuration</emphasis>
 					</para>
 					<para>
-						다음은 CacheServiceImpl과 사용할 Cache의 속성을 정의한 context-cache.xml 의 일부이다. 아래 속성 정의 파일 내용에 따르면,
-						cacheAdministrator Bean에 테스트에서 사용할 Cache의 속성이 정의되어 있다. 또한 cacheService Bean에서 cacheAdministrator의 getCache 메소드를 통해 
-						도출한 캐시를 참조하고 있다.
+						The following is a part of context-cache.xml, configuration file of cacheService and cache.
+						According to the contents of the file under the property definition, Cache properties for using 
+						in the test with cacheAdministrator Bean are defined. In addition, 
+						reference cache which is returned by getCache method in the cacheService Bean.
 						<programlisting language="xml"><![CDATA[<bean id="cacheService" class="org.anyframe.cache.impl.CacheServiceImpl">
     <property name="cache" ref="cache" />
 </bean>
@@ -32,7 +33,8 @@
 						<emphasis role="bold">TestCase</emphasis>
 					</para>
 					<para>
-						다음은 앞서 정의한 속성 설정을 기반으로 하여 Cache 내에 특정 데이터를 저장하고 추출하는 테스트케이스 코드의 일부이다.
+						The following is a part of TestCase which tests sotre and retrieve data in 
+						Cache based on above-defined configuration
 						<programlisting language="java">public void manageGenre() throws Exception {
     // 1. create a new genre
     Genre genre = new Genre();
